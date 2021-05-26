@@ -14,7 +14,7 @@ body {
 h1 {
     color: #fff;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 
@@ -22,6 +22,7 @@ h1 {
     max-width: 300px;
     margin: 0 auto;
     margin-top: 20vh;
+    padding: 5px;
     /* display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 140px; */
@@ -37,12 +38,12 @@ img {
 .card {
     background-color: #fff;
     border: 1px solid #bacdd8;
-    padding: 8px;
+    padding: 12px;
     border-radius: 12px;
 }
 
 .tag {
-    padding: 4px 8px;
+    padding: 6px 10px;
     border: 1px solid #e5eaed;
     border-radius: 50px;
     font-size: 12px;
@@ -60,11 +61,13 @@ p {
     font-size: 14px;
     color: #7f8c9b;
     line-height: 150%;
+    padding: 5px;
 }
 
 button {
     border: none;
-    padding: 12px 24px;
+    padding: 14px 24px;
+    margin: 5;
     border-radius: 50px;
     font-weight: 600;
     color: #0077ff;
@@ -75,7 +78,7 @@ button {
 }
 
 .card__details {
-    padding: 16px 8px 8px 8px;
+    padding: 20px 10px 10px 10px;
 }
 
 button:focus,
