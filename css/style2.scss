@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
+
+:root {
+    --main-color: #0652DD;
+    --card-color: #fff;
+    --btn-color: #0077ff;
+    --btn-bg-color: #e0efff;
+    --grey1: #bacdd8;
+    --grey2: #e5eaed;
+    --grey3: #788697;
+    --grey4: #7f8c9b;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--main-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: var(--card-color);
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+.container {
+    max-width: 18.75rem;
+    margin: 0 auto;
+    margin-top: 10vh;
+    padding: 5px;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 140px; */
+
+    img {
+        width: 100%;
+        border-radius: 12px;
+        height: 214px;
+        object-fit: cover;
+    }
+
+    .card {
+        background-color: var(--card-color);
+        border: 1px solid var(--grey1);
+        padding: 12px;
+        border-radius: 12px;
+    }
+    
+    .tag {
+        padding: 6px 10px;
+        border: 1px solid var(--grey2);
+        border-radius: 50px;
+        font-size: .75rem;
+        font-weight: 600;
+        color: var(--grey3);
+    }
+
+    .name {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-top: 16px;
+    }
+
+    p {
+        font-size: .95rem;
+        color: var(--grey4);
+        line-height: 150%;
+        padding: 5px;
+    }
+
+    .btn {
+        border: none;
+        padding: 14px 24px;
+        margin: 5;
+        border-radius: 50px;
+        font-weight: 600;
+        color: var(--btn-color);
+        background-color: var(--btn-bg-color);
+        margin: 0 auto;
+        display: block;
+        cursor: pointer;
+    }
+
+    .card__details {
+        padding: 20px 10px 10px 10px;
+    }
+
+    .btn:focus,
+    .btn:hover {
+        background-color: var(--btn-color);
+        color: var(--btn-bg-color);
+    }
+}
